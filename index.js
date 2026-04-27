@@ -37,3 +37,4 @@ app.post('/api/update-stats', async (req, res) => {
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`سيرفرك شغال على بورت ${PORT}`)); 
+module.exports = app; // للتستنج
